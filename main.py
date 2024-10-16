@@ -3,7 +3,7 @@ from sqlmodel import SQLModel, create_engine, Session, select
 from models import Item
 
 # Configurando a URL de conexão com o MySQL
-DATABASE_URL = "mysql+pymysql://usuario:senha@localhost:3306/testdb"
+DATABASE_URL = "mysql+pymysql://root:@localhost:3306/test"
 
 # Criando o engine de conexão
 engine = create_engine(DATABASE_URL, echo=True)
