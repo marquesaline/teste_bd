@@ -1,0 +1,6 @@
+# gitignore python
+*.pyc
+venv/
+__pycache__/
+*.pyo
+*.pyd
